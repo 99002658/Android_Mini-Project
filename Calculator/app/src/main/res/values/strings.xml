@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string-array name="units">
+        <item>Inch</item>
+        <item>Centimeter</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Meter</item>
+        <item>Mile</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="wunits">
+        <item>Kilogram</item>
+        <item>Grams</item>
+        <item>Miligrams</item>
+        <item>Ounce</item>
+        <item>Pound</item>
+    </string-array>
+    <string-array name="tunits">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="cunits">
+        <item>US_Dollar</item>
+        <item>Rupee</item>
+        <item>Euro</item>
+        <item>Pound_Sterling</item>
+        <item>UAE_DIRHAM</item>
+        <item>Bitcoin</item>
+        <item>Ether</item>
+    </string-array>
+
+</resources>
