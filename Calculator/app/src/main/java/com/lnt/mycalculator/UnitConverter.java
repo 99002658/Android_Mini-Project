@@ -24,7 +24,7 @@ public class UnitConverter extends AppCompatActivity {
 
         length = (Button)findViewById(R.id.length);
         weight = (Button)findViewById(R.id.weight);
-        temperature = (Button)findViewById(R.id.temp2);
+        temperature = (Button)findViewById(R.id.temp);
         currency = (Button)findViewById(R.id.currency);
 
         length.setOnClickListener(new View.OnClickListener() {

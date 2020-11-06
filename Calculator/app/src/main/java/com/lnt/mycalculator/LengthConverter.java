@@ -21,7 +21,7 @@ public class LengthConverter extends AppCompatActivity {
 
         // An adapter to convert the String[] into something that can go in the Spinner
         //ArrayAdapter&lt;CharSequence&gt;
-        adapter = ArrayAdapter.createFromResource(this, R.array.units, android.R.layout.simple_spinner_item);
+        adapter = ArrayAdapter.createFromResource(this, R.array.length, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         fromSpinner = (Spinner) findViewById(R.id.spinner_from);
@@ -37,8 +37,8 @@ public class LengthConverter extends AppCompatActivity {
 
         fromSpinner = (Spinner) findViewById(R.id.spinner_from);
         toSpinner = (Spinner) findViewById(R.id.spinner_to);
-        fromEditText = (EditText) findViewById(R.id.editText_from);
-        toEditText = (EditText) findViewById(R.id.editText_to);
+        fromEditText = (EditText) findViewById(R.id.height);
+        toEditText = (EditText) findViewById(R.id.weight);
 
         // Get the string from the Spinners and number from the EditText
         String fromString = (String) fromSpinner.getSelectedItem();
