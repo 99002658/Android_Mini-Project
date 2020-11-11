@@ -46,6 +46,17 @@ public class bmi extends AppCompatActivity {
             bmiLabel = "Underweight";
         } else if (Float.compare(bmi,18.5f) > 0 && Float.compare(bmi,25f) <= 0){
             bmiLabel = "Normal";
+        } else if (Float.compare(bmi,25f) > 0 && Float.compare(bmi,30f) <= 0){
+            bmiLabel = "Overweight";
+        } else if (Float.compare(bmi,30f) > 0 && Float.compare(bmi,35f) <= 0){
+            bmiLabel = "Obese Class I";
+        } else if (Float.compare(bmi,35f) > 0 && Float.compare(bmi,40f) <= 0){
+            bmiLabel = "Obese Class II";
+        } else {
+            bmiLabel = "Obese Class III";
         }
+
+        bmiLabel = bmi+" :: "+bmiLabel;
+        output.setText(bmiLabel);
     }
 }
