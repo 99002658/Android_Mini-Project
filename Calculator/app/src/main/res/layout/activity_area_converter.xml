@@ -4,49 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="convert"
     android:background="#373535"
     tools:context=".area_converter">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp">
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Spinner
             android:id="@+id/spinner_from"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="395dp"
+            android:layout_height="38dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/draw" />
 
         <EditText
-            android:id="@+id/from_height"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_below="@+id/spinner_from"
+            android:id="@+id/editText_from"
+            android:layout_width="364dp"
+            android:layout_height="41dp"
+            android:layout_below="@+id/from_height"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/draw"
             android:ems="10"
             android:inputType="numberDecimal" />
 
         <Spinner
             android:id="@+id/spinner_to"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_below="@+id/height"
+            android:layout_width="363dp"
+            android:layout_height="39dp"
+            android:layout_below="@+id/editText_from"
             android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="146dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/draw" />
 
         <EditText
             android:id="@+id/to_height"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
+            android:layout_width="364dp"
+            android:layout_height="44dp"
             android:layout_below="@+id/spinner_to"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/draw"
             android:clickable="false"
             android:cursorVisible="false"
@@ -56,14 +74,12 @@
             android:inputType="numberDecimal" />
 
         <Button
+            android:id="@+id/button_convert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:onClick="convert"
             android:background="@drawable/draw"
-            android:text="Convert"
-            android:id="@+id/button_convert"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:onClick="convert" />
+            android:text="Convert" />
     </RelativeLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
