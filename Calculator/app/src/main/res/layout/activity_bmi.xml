@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#373535"
-    tools:context=".BMI_calc">
+    tools:context=".bmi">
 
     <EditText
         android:id="@+id/height"
