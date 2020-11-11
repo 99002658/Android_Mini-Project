@@ -15,6 +15,7 @@ public class UnitConverter extends AppCompatActivity {
     Button weight;
     Button temperature;
     Button currency;
+    Button bmi;
 
 
     @Override
@@ -26,6 +27,7 @@ public class UnitConverter extends AppCompatActivity {
         weight = (Button)findViewById(R.id.weight);
         temperature = (Button)findViewById(R.id.temp);
         currency = (Button)findViewById(R.id.currency);
+        bmi = (Button)findViewById(R.id.bmi);
 
         length.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +53,12 @@ public class UnitConverter extends AppCompatActivity {
                 openNewActivity4();
             }
         });
+        bmi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNewActivity5();
+            }
+        });
     }
 
 
@@ -71,6 +79,10 @@ public class UnitConverter extends AppCompatActivity {
     }
     public void openNewActivity4() {
         Intent intent = new Intent(this, CurrencyConverter.class);
+        startActivity(intent);
+    }
+    public void openNewActivity5() {
+        Intent intent = new Intent(this, bmi.class);
         startActivity(intent);
     }
 
