@@ -5,6 +5,11 @@
 
 Hope you enjoy using the app!!!
 
+Team - 
+* Shrawani Bawage 99002688
+* Subhrosil Maiti 99002658 
+* Hasika Chilladurai 99002681
+
 --------------------------------------------------
 |CI/CD|Active Issues|Code Quality|Pull Requests|Last Edit|
 |-----|-------------|------------|-------------|---------|
