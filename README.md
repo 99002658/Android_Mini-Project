@@ -1,6 +1,7 @@
 # Android_Mini-Project: Calculator/Unit-Converter
 -------------------------------------------------
 *__Description__*
+
 *Since the advent of modern electronics and circuitry, calculators have become an integral part of our lives. As advancements in electronics took place, more and more complex funcalities were added to make the calculator an indisposable necessity. Nowadays, with the widespread use of smartphones, every imaginable function has been added to calculators. This project involves the design and development of a calculator app for Android smartphones named, __My Calculator__. The User Interface has been designed in a such a way that its very easy for a person to get acclimated to it. Along with the calculator functions, a unit converter has been added to ease the user's life a bit, when doing conversions from one unit to another, e.g., inches to feet.*
 
 Hope you enjoy using the app!!!
